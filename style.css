@@ -1,0 +1,44 @@
+.mytext{
+    color: rgb(245, 55, 93);
+}
+.mynavbar{
+    background-color: yellowgreen;
+    /* position: sticky; */
+}
+/* Contact Section */
+#contact{
+    position: relative;
+}
+/* #contact::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.7;
+    background: url('contact.webp') no-repeat center center/cover;
+
+} */
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5px;
+}
+#contact-box textarea{
+    width: 100%;
+    padding: 0.3rem;
+    border-radius: 9px;
+    font-size: 1.1rem;
+} 
+
+#contact-box form{
+    width: 25%;
+}
+
+#contact-box label{
+   font-size: 1.1rem;
+   font-family: 'Bree Serif', serif;
+
+}
+
